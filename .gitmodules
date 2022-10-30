@@ -1,0 +1,6 @@
+[submodule "content"]
+	path = content
+	url = https://github.com/send2manoo/content.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/send2manoo/hugo-PaperMod.git
