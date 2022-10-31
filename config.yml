@@ -1,4 +1,4 @@
-baseURL: "https://send2manoo.github.io/test-blog/"
+baseURL: "https://submodule.vercel.app"
 title: "Manohar's Blog"
 paginate: 5
 theme: "PaperMod"
