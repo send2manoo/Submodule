@@ -28,8 +28,10 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          token:  ${{ secrets.ML_DECODER_TEST_BLOG }}
-          repository-name: ml-decoder/test-blog
+          # token:  ${{ secrets.ML_DECODER_TEST_BLOG }} # Own Remote(Another) GitHub Account Token
+          # repository-name: ml-decoder/test-blog
+          token:  ${{ secrets.REPO_TOKEN }} # Own GitHub Account Token
+          repository-name: send2manoo/test-blog
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           single-commit: true
