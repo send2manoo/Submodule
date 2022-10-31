@@ -1,4 +1,4 @@
-baseURL: "https://submodule.vercel.app"
+baseURL: "https://decodeai.in/test-blog/"
 title: "Manohar's Blog"
 paginate: 5
 theme: "PaperMod"

@@ -28,9 +28,9 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          token:  ${{ secrets.REPO_TOKEN }}
-          repository-name: send2manoo/test-blog
+          token:  ${{ secrets.ML_DECODER_TEST_BLOG }}
+          repository-name: ml-decoder/test-blog
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           single-commit: true
-          commit-message: "Deployment from source send2manoo/submodule on OCT 30 13:24 PM"
+          commit-message: "Deployment from source send2manoo/submodule on OCT 31 14:15 PM"
