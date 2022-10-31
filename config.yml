@@ -1,4 +1,5 @@
-baseURL: "https://send2manoo.github.io/test-blog/"
+baseURL: "https://decodeai.in/test-blog/"
+# baseURL: "https://send2manoo.github.io/test-blog/"
 title: "Manohar's Blog"
 paginate: 5
 theme: "PaperMod"
